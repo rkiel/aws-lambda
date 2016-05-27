@@ -1,3 +1,5 @@
 .vagrant
 .rvmrc
 node_modules
+aws_access_key_id.txt
+aws_secret_access_key.txt
