@@ -29,7 +29,7 @@ Grant user permissions
 * click **aws-lambda-lab**
 * click **Permissions**
 * click **Attach Policy**
-* type in **lambda**
+* type in `lambda`
 * check **AWSLambdaFullAccess**
 * click **Attach Policy**
 
@@ -38,11 +38,11 @@ Create a new role
 * click **IAM**
 * click **Role**
 * click **Create New Role**
-* type **lambda-execution**
+* type `lambda-execution`
 * click **Next Step**
 * click **AWS Service Roles**
 * click **Select** in AWS Lambda
-* type **lambda**
+* type `lambda`
 * check **AWSLambdaExecute**
 * click **Next Step**
 * click **Create Role**
