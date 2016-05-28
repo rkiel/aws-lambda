@@ -10,8 +10,8 @@ create a lambda function
 
 ```unix
 aws lambda create-function \
-    --region us-east-1 \
     --function-name HelloWorld \
+    --region us-east-1 \
     --zip fileb://hello.zip \
     --role arn:aws:iam::999999:role/lambda-execution \
     --handler hello.handler \
@@ -22,11 +22,16 @@ aws lambda create-function \
 invoke the lambda function
 
 ```unix
-aws lambda invoke-async  --function-name  HelloWorld --invoke-args input.json --debug
+aws lambda invoke-async  \
+    --function-name  HelloWorld \
+    --invoke-args input.json \
+    --debug
 ```
 
 delete the lambda function
 
 ```unix
-aws lambda delete-function --function-name HelloWorld
+aws lambda delete-function \
+    --function-name HelloWorld \
+    --debug
 ```
