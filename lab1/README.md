@@ -9,7 +9,7 @@ zip hello hello.js
 create a lambda function
 
 ```unix
-aws lambda create-function --region us-east-1 --function-name HelloWorld --zip fileb://hello.zip --role arn:aws:iam::167460943148:role/lambda-execution --handler hello.handler --runtime nodejs --debug
+aws lambda create-function --region us-east-1 --function-name HelloWorld --zip fileb://hello.zip --role arn:aws:iam::999999:role/lambda-execution --handler hello.handler --runtime nodejs --debug
 ```
 
 invoke the lambda function
