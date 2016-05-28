@@ -5,6 +5,9 @@ sudo apt-get install -y python-pip >/dev/null 2>&1
 echo "Installing AWS CLI..."
 sudo pip install awscli  >/dev/null 2>&1
 
+echo "Installing Zip"
+sudo apt-get install -y zip
+
 echo "Initializing AWS CLI..."
 
 aws configure set region                us-east-1
